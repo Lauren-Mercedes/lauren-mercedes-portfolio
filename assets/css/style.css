@@ -1,12 +1,30 @@
+
+/* /* Applies global styling to all elements in order to override browser defaults */
+*{ padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+/* General positioning of page components */
+body {
+    min-height: 100vh;
+    display:flex;
+    flex-direction:column;
+}
 /* Header style */
 header {
     background-color:#82B5A7;
+/* Header height */
+    flex-basis:  200px;
 }
 /* Main body style */
 Main {
     background-color:#657C75;
+ /* Using main content to push footer to the bottom of the page */
+ flex: 1 0 auto;
 }
 /* Footer style */
 Footer{
     background-color:#364B45;
+/* Footer height */
+    flex-basis:  100px;
 }
