@@ -16,6 +16,24 @@ header {
 /* Header height */
     flex-basis:  200px;
 }
+/* Navbar position within Header */
+nav {
+    margin-top: 100px;
+    display: flex;
+}
+/* Link position within Navbar */
+nav div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.75rem;
+}
+/* Icon sizing */
+.nav-icon-size {
+height: 3rem;
+width: 3rem;
+}
+
 /* Main body style */
 Main {
     background-color:#657C75;
