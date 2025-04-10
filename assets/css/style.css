@@ -13,13 +13,17 @@ body {
 /* Header style */
 header {
     background-color:#82B5A7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    text-align: center;
 /* Header height */
     flex-basis:  200px;
 }
 /* Navbar position within Header */
 nav {
-    margin-top: 100px;
+    margin-top: 1.5rem;
     display: flex;
+    font-size: 1rem;
 }
 /* Link position within Navbar */
 nav div {
