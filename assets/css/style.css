@@ -19,6 +19,20 @@ header {
 /* Header height */
     flex-basis:  200px;
 }
+picture img {
+    height: 20rem;
+    width: 20rem;
+    border: 2rem solid #364B45;
+    border-radius: 50%;
+   display:flex;
+   align-items: flex-start;
+   position: absolute; 
+   top: 0;
+   left: 0;
+   z-index: 99;
+  transform: translate(-22%, -22%);
+}
+
 /* Navbar position within Header */
 nav {
     margin-top: 1.5rem;
@@ -49,4 +63,12 @@ Footer{
     background-color:#364B45;
 /* Footer height */
     flex-basis:  100px;
+}
+/* Rules for mobile screens */
+@media screen and (max-width: 767px) {
+
+.display-min-768px {
+    display:none;
+}
+    
 }
