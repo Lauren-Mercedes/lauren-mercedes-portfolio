@@ -18,8 +18,10 @@ header {
     text-align: center;
 /* Header height */
     flex-basis:  200px;
+
+/* Header picture size and positioning */
 }
-picture img {
+header picture img {
     height: 20rem;
     width: 20rem;
     border: 2rem solid #364B45;
@@ -64,24 +66,30 @@ Footer{
 /* Footer height */
     flex-basis:  100px;
 }
+
 /* Rules for mobile screens */
 @media screen and (max-width: 767px) {
-
+/* Removes header image */
 .display-min-768px {
     display:none;
 }
-    
 }
+
+/* Rules for tablet screens  */
 @media screen and (min-width:768px) {
+     /* Adjustment of header content position */
     header{
         justify-items: flex-end;
     }
+    /* Adjustment of header text position */
     header>span {
         margin-right: 1rem;
     }
+     /* Adjustment of contact me text wrap in contact page header */
     header>span>br {
         display:none;
     }
+    /* Adjustment of nav items size */
     nav{
         font-size: 1.3rem;
     }
