@@ -57,8 +57,18 @@ width: 3rem;
 /* Main body style */
 Main {
     background-color:#657C75;
+    display: flex;
+    flex-direction: column;
  /* Using main content to push footer to the bottom of the page */
  flex: 1 0 auto;
+}
+
+/* Video-1 styling */
+.video-1 {
+ height: fit-content;
+ width: 20rem;
+ align-self: center;
+
 }
 /* Footer style */
 Footer{
