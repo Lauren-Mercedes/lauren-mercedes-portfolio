@@ -68,13 +68,18 @@ Main {
 }
 
 /* Video-1 styling */
+.a-video-1 {
+    height: fit-content;
+    width: 20rem;
+    align-self: center;
+    
+}
 .video-1 {
     height: fit-content;
     width: 20rem;
     align-self: center;
-    position: relative;
-    top: 100px;
-    z-index: 1;
+    position: fixed;
+    top: 450px;
    }
 
 /* Button styling */
@@ -96,11 +101,11 @@ button{
  .right-button {
     align-self: flex-end;
     position: relative;
-    top: 125px;
+    top: 275px;
  }
  .left-button {
     position: relative;
-    top: 75px;
+    top: 225px;
  }
 
 /* Footer style */
