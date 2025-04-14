@@ -18,6 +18,8 @@ header {
     text-align: center;
 /* Header height */
     flex-basis:  200px;
+/* Gradient between header and main body */
+    background: linear-gradient(180deg,#82B5A7 50%, #657C75 100%);
 
 /* Header picture size and positioning */
 }
@@ -40,8 +42,6 @@ nav {
     margin-top: 1.5rem;
     display: flex;
     font-size: 1rem;
-/* Gradient between header and main body */
-    background: linear-gradient(180deg,#82B5A7 50%, #657C75 100%);
 }
 /* Link position within Navbar */
 nav div {
@@ -66,6 +66,9 @@ Main {
  /* Using main content to push footer to the bottom of the page */
  flex: 1 0 auto;
 }
+main h1, p {
+    margin-left: 10px;
+}
 
 /* Link for video-1 styling */
 .a-video-1 {
@@ -78,8 +81,8 @@ Main {
     height: fit-content;
     width: 20rem;
     align-self: center;
-    position: fixed;
-    top: 450px;
+    position: relative;
+    top: 50px;
    }
 
 /* Button styling */
@@ -101,11 +104,10 @@ button{
  .right-button {
     align-self: flex-end;
     position: relative;
-    top: 275px;
+    top: 50px;
  }
  .left-button {
     position: relative;
-    top: 225px;
  }
 
 /* Footer style */
@@ -114,6 +116,7 @@ Footer{
 /* Footer height */
     flex-basis:  100px;
 }
+
 
 /* Rules for mobile screens */
 @media screen and (max-width: 767px) {
@@ -144,5 +147,8 @@ Footer{
     .nav-icon-size {
         height: 4rem;
         width: 4rem;
+    }
+    main h1 {
+       margin-top: 3rem;
     }
 }
