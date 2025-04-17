@@ -169,8 +169,12 @@ footer img {
         height: 4rem;
         width: 4rem;
     }
+    /* Adjustment of main content position */
     main h1 {
        margin-top: 3rem;
+    }
+    main {
+        font-size: larger;
     }
     .video-1 {
         transform: translate(-58px, -490px);
@@ -180,6 +184,9 @@ footer img {
     }
     button {
         transform: translateY(-500px);
-        
+    /* Adjustment of footer content size */
+    }
+    footer img {
+        width:fit-content
     }
 }
