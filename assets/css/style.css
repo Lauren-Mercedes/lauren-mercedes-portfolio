@@ -131,6 +131,7 @@ Footer{
 }
 footer img {
     height: 1.5rem;
+    width: fit-content;
 }
 /* footer link styles */
  footer a {
@@ -185,10 +186,4 @@ footer img {
     }
     button {
         transform: translateY(-500px);
-    /* Adjustment of footer content size */
-    }
-    /* Adjustment of LinkedIn image */
-    footer img {
-        width:fit-content
-    }
 }
