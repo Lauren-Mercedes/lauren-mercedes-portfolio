@@ -178,4 +178,8 @@ footer img {
         width: 141%;
         height: 96%;
     }
+    button {
+        transform: translateY(-500px);
+        
+    }
 }
