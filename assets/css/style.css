@@ -175,9 +175,10 @@ footer img {
     }
     main {
         font-size: larger;
+        height: 700px;
     }
     .video-1 {
-        transform: translate(-58px, -490px);
+        transform: translate(-58px, -720px);
         z-index: 2;
         width: 141%;
         height: 96%;
@@ -186,6 +187,7 @@ footer img {
         transform: translateY(-500px);
     /* Adjustment of footer content size */
     }
+    /* Adjustment of LinkedIn image */
     footer img {
         width:fit-content
     }
