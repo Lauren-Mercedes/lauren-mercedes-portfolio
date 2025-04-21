@@ -3,16 +3,14 @@ body {
     display:flex;
     flex-direction:column;
     background-color: #fe9865;
+    background-image: url(../progress-background.jpg);
+    background-position: center;
+    background-size: cover;
 }
-
 header
  {
-    flex-basis: 100px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 200%;
     text-align: center;
-}
-
-img{
-    align-self: center;
+    background-color: #fe986590;
 }
