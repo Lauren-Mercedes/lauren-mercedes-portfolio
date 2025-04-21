@@ -14,7 +14,7 @@ body {
 header {
     background-color:#82B5A7;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 3rem;
+    font-size: 100%;
     text-align: center;
 /* Header height */
     flex-basis:  200px;
@@ -33,7 +33,6 @@ header picture img {
    position: absolute; 
    top: 0;
    left: 0;
-   z-index: 99;
   transform: translate(-23%, -21%);
 }
 
@@ -47,10 +46,13 @@ nav {
 nav div {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 1.75rem;
-    transform: translateY(-20%);
+    margin-left: 10%;
 }
+
+nav div p {
+    transform: translateX(-30%);
+}
+
 /* Icon sizing */
 .nav-icon-size {
 height: 3rem;
@@ -148,24 +150,24 @@ footer img {
 }
 }
 
-/* Rules for tablet screens  */
+/* Rules for tablet screens and larger */
 @media screen and (min-width:768px) {
      /* Adjustment of header content position */
     header{
         justify-items: flex-end;
     }
     /* Adjustment of header text position */
-    header>span {
-        margin-right: 1rem;
+    header>h1 {
+        margin-right: 0.5rem;
+        font-size: 250%;
     }
-     /* Adjustment of contact me text wrap in contact page header */
-    header>span>br {
-        display:none;
-    }
-    /* Adjustment of nav items size */
+    /* Adjustment of nav items size & position*/
     nav{
         font-size: 1.3rem;
+        margin-right: 4rem;
+        text-wrap: nowrap;
     }
+
     .nav-icon-size {
         height: 4rem;
         width: 4rem;
@@ -186,4 +188,5 @@ footer img {
     }
     button {
         transform: translateY(-500px);
+}
 }
