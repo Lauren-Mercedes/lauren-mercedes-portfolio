@@ -68,6 +68,10 @@ Main {
  /* Using main content to push footer to the bottom of the page */
  flex: 1 0 auto;
 }
+#noticeboard{
+    max-width: 75%;
+    align-self: center;
+}
 main h1, p {
     margin-left: 10px;
 }
