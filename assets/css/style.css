@@ -85,7 +85,7 @@ a img {
 .a-video-1 {
     height: fit-content;
     width: 20rem;
-    align-self: center;  
+    align-self: center; 
 }
 /* Video-1 styling */
 .video-1 {
@@ -93,7 +93,7 @@ a img {
     width: 20rem;
     align-self: center;
     position: relative;
-    top: 50px;
+    top:30px;
    }
 
 /* Button styling */
@@ -186,7 +186,7 @@ footer img {
         height: 700px;
     }
     .video-1 {
-        transform: translate(-58px, -720px);
+        transform: translate(-58px, -475px);
         z-index: 2;
         width: 141%;
         height: 96%;
