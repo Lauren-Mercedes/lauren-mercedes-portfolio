@@ -13,4 +13,11 @@ header
     font-size: 200%;
     text-align: center;
     background-color: #fe986590;
+    transform: translateY(200%);
+}
+@media screen and (max-width: 767px) {
+    header{
+        transform: translateY(400%);
+        font-size: 100%;
+    }
 }
