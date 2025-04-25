@@ -21,8 +21,8 @@ header {
 /* Gradient between header and main body */
     background: linear-gradient(180deg,#82B5A7 50%, #657C75 100%);
 
-/* Header picture size and positioning */
 }
+/* Header picture size and positioning */
 header picture img {
     height: 20rem;
     width: 20rem;
@@ -46,11 +46,16 @@ nav {
 nav div {
     display: flex;
     flex-direction: column;
-    margin-left: 10%;
+    margin-left: 5%;
 }
-
+/* Text position within nav link */
 nav div p {
-    transform: translateX(-30%);
+    text-align: center;
+}
+/* Link & image position within nav link */
+nav div a{
+    position: relative;
+    right: -25%;
 }
 
 /* Icon sizing */
@@ -152,6 +157,10 @@ footer img {
 /* Removes header image */
 .display-min-768px {
     display:none;
+}
+/* Adjust nav link position for mobile view */
+nav div {
+   transform: translateX(30%);
 }
 }
 
