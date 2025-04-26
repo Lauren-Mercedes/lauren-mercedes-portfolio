@@ -73,10 +73,14 @@ Main {
  /* Using main content to push footer to the bottom of the page */
     flex: 1 0;
 }
-#noticeboard{
-    max-width: 75%;
-    align-self: center;
+/* Background noticeboard position on about me page */
+#noticeboard {
+    background-image: url("../images/noticeboard.png");
+    background-position:center top 25%;
+    background-size: 80%;
+    background-repeat: no-repeat;
 }
+/* Position introductory content */
 main h1, p {
     margin-left: 10px;
 }
@@ -158,6 +162,7 @@ footer img {
 .display-min-768px {
     display:none;
 }
+
 /* Adjust nav link position for mobile view */
 nav div {
    transform: translateX(30%);
