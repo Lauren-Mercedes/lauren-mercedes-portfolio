@@ -80,6 +80,19 @@ Main {
     background-size: 80%;
     background-repeat: no-repeat;
 }
+/* style and position for orange sticky note content */
+#orange h2{
+    font-size: 1rem;
+    text-align: center;
+    transform: translate(6%, 40%);
+}
+#orange p{
+    font-size: 0.75rem;
+    transform: translate(26%, 10%);
+}
+#orange span{
+    margin-left: 6%;
+}
 /* Position introductory content */
 main h1, p {
     margin-left: 10px;
@@ -167,6 +180,7 @@ footer img {
 nav div {
    transform: translateX(30%);
 }
+/* Sticky note background for mobile screens-about me page */
 #noticeboard{
     background-image: url("../images/sticky-notes.png");
     background-position: center top 50%;
