@@ -10,6 +10,7 @@ body {
     display:flex;
     flex-direction:column;
 }
+
 /* Header style */
 header {
     background-color:#82B5A7;
@@ -20,7 +21,6 @@ header {
     flex-basis:  200px;
 /* Gradient between header and main body */
     background: linear-gradient(180deg,#82B5A7 50%, #657C75 100%);
-
 }
 /* Header picture size and positioning */
 header picture img {
@@ -57,7 +57,6 @@ nav div a{
     position: relative;
     right: -25%;
 }
-
 /* Icon sizing */
 .nav-icon-size {
 height: 3rem;
@@ -73,6 +72,8 @@ Main {
  /* Using main content to push footer to the bottom of the page */
     flex: 1 0;
 }
+
+/* About me page style */
 /* Background noticeboard position on about me page */
 #noticeboard {
     background-image: url("../images/noticeboard.png");
@@ -93,6 +94,8 @@ Main {
 #orange span{
     margin-left: 6%;
 }
+
+/* Portfolio page styling */
 /* Position introductory content */
 main h1, p {
     margin-left: 10px;
@@ -117,12 +120,10 @@ a img {
     position: relative;
     top:30px;
    }
-
 /* Button styling */
 button{
     border: none;
     background-color: #657C75;
-
  }
  /* Right button icon size */
  .right-button img {
@@ -156,7 +157,6 @@ Footer{
     text-align: center;
 /* Footer height */
     flex-basis:  100px;
-
 }
 footer img {
     height: 1.5rem;
@@ -167,7 +167,6 @@ footer img {
     color: #82B5A7;
     text-decoration: none;
  }
-
 
 /* Rules for mobile screens */
 @media screen and (max-width: 767px) {
@@ -199,17 +198,36 @@ nav div {
         margin-right: 0.5rem;
         font-size: 250%;
     }
+
     /* Adjustment of nav items size & position*/
     nav{
         font-size: 1.3rem;
         margin-right: 4rem;
         text-wrap: nowrap;
     }
-
     .nav-icon-size {
         height: 4rem;
         width: 4rem;
     }
+    /* About Me page adjustments */
+    /* orange sticky note */
+   #orange {
+    background-color: #F7C296;
+    max-width: 200px;
+    height: 175px;
+    transform: translate(70%, 120%);
+    box-shadow: 10px 5px 5px black;
+   }
+   #orange h2 {
+    transform: translateY(-2%);
+   }
+   #orange p {
+    transform: translate(-2%, 2%);
+   }
+   #orange span {
+    margin-left: 0;
+   }
+    /* Portfolio page adjustments */
     /* Adjustment of main content position */
     main h1 {
        margin-top: 3rem;
