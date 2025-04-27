@@ -167,6 +167,11 @@ footer img {
 nav div {
    transform: translateX(30%);
 }
+#noticeboard{
+    background-image: url("../images/sticky-notes.png");
+    background-position: center top 50%;
+    background-size: 80%;
+}
 }
 
 /* Rules for tablet screens and larger */
