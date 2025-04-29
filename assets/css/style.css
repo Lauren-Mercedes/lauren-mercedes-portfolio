@@ -178,7 +178,10 @@ footer img {
 
 /* Adjust nav link position for mobile view */
 nav div {
-   transform: translateX(30%);
+    /* align-items: center; */
+   /* transform: translateX(30%); */
+   position: relative;
+   left: 10%;
 }
 
 }
@@ -191,7 +194,7 @@ nav div {
     }
     /* Adjustment of header text position */
     header>h1 {
-        margin-right: 0.5rem;
+        margin-right: 1.25rem;
         font-size: 250%;
     }
 
