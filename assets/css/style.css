@@ -65,6 +65,7 @@ width: 3rem;
 
 /* Main body style */
 Main {
+    min-height: 800px;
     background-color:#657C75;
     display: flex;
     flex-direction: column;
@@ -74,11 +75,11 @@ Main {
 }
 
 /* About me page style */
-/* Background noticeboard position on about me page */
-#noticeboard {
-    background-image: url("../images/noticeboard.png");
-    background-position:center top 25%;
-    background-size: 80%;
+/* Sticky note background for mobile screens-about me page */
+#noticeboard{
+    background-image: url("../images/sticky-notes.png");
+    background-position: center top 50%;
+    background-size: 90%;
     background-repeat: no-repeat;
 }
 /* style and position for orange sticky note content */
@@ -179,12 +180,7 @@ footer img {
 nav div {
    transform: translateX(30%);
 }
-/* Sticky note background for mobile screens-about me page */
-#noticeboard{
-    background-image: url("../images/sticky-notes.png");
-    background-position: center top 50%;
-    background-size: 80%;
-}
+
 }
 
 /* Rules for tablet screens and larger */
@@ -210,6 +206,13 @@ nav div {
         width: 4rem;
     }
     /* About Me page adjustments */
+    /* Background noticeboard and position on about me page */
+    #noticeboard {
+        background-image: url("../images/noticeboard.png");
+        background-position:center top 50%;
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
     /* orange sticky note */
    #orange {
     background-color: #F7C296;
@@ -234,7 +237,7 @@ nav div {
     }
     main {
         font-size: larger;
-        height: 700px;
+        min-height: 1000px;
     }
     .video-1 {
         transform: translate(-58px, -475px);
