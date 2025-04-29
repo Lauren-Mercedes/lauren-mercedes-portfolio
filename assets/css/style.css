@@ -75,22 +75,32 @@ Main {
 }
 
 /* About me page style */
-/* Sticky note background for mobile screens-about me page */
-#noticeboard{
-    background-image: url("../images/sticky-notes.png");
+/* Sticky notes for mobile screens-about me page */
+/* Orange sticky note */
+ #orange {
+    background-image: url("../images/orange-sticky.png");
     background-position: center top 50%;
-    background-size: 90%;
+    background-size: 100%;
     background-repeat: no-repeat;
-}
+    height: 300px;
+
+ }
 /* style and position for orange sticky note content */
 #orange h2{
     font-size: 1rem;
     text-align: center;
-    transform: translate(6%, 40%);
+    position: relative;
+    top: 18%;
 }
 #orange p{
-    font-size: 0.75rem;
-    transform: translate(26%, 10%);
+    font-size: 90%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 22%;
+    top: 55px;
+    /* transform: translateY(50%); */
+
 }
 #orange span{
     margin-left: 6%;
