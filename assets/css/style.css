@@ -228,21 +228,24 @@ nav div {
     }
     /* orange sticky note */
    #orange {
-    background-color: #F7C296;
-    max-width: 200px;
-    height: 175px;
-    transform: translate(70%, 120%);
-    box-shadow: 10px 5px 5px black;
+    background-size: contain;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 270px;
+    left:5%;
    }
    #orange h2 {
-    transform: translateY(-2%);
+    font-size: 90% ;
+    position: relative;
+    top: 22%;
    }
    #orange p {
-    transform: translate(-2%, 2%);
+    font-size: 65% ;
+    position: relative;
+    top: 22%;
    }
-   #orange span {
-    margin-left: 0;
-   }
+ 
     /* Portfolio page adjustments */
     /* Adjustment of main content position */
     main h1 {
@@ -261,4 +264,26 @@ nav div {
     button {
         transform: translateY(-500px);
 }
+}
+/* Rules for laptop screens and larger */
+@media screen and (min-width:1100px) {
+  /* orange sticky note */
+  #orange {
+    background-size: contain;
+    height: 500px;
+    width: 500px;
+    position: relative;
+    top: 100px;
+    left:5%;
+   }
+   #orange h2 {
+    font-size: 150% ;
+    position: relative;
+    top: 25%;
+   }
+   #orange p {
+    font-size: 100% ;
+    position: relative;
+    top: 25%;
+   }
 }
