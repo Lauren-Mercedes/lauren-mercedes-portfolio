@@ -97,7 +97,7 @@ Main {
     flex-direction: column;
     position: relative;
     left: 22%;
-    top: 105px;
+    top: 110px;
 }
 #orange span{
     margin-left: 6%;
@@ -114,7 +114,7 @@ Main {
     font-size: 1rem;
     text-align: center;
     position: relative;
-    top: 23%;
+    top: 22%;
 }
 #yellow p{
     font-size: 90%;
@@ -140,7 +140,7 @@ Main {
     font-size: 1rem;
     text-align: center;
     position: relative;
-    top: 25%;
+    top: 23%;
 }
 #pink ul{
     list-style: none;
@@ -149,7 +149,7 @@ Main {
     flex-direction: column;
     position: relative;
     left: 22%;
-    top: 30%;
+    top: 25%;
 }
 #pink span{
     margin-left: 6%;
@@ -283,6 +283,10 @@ nav div {
         background-size: 100%;
         background-repeat: no-repeat;
     }
+    /* Angle of text to match sticky notes */
+    .text-angle{
+        transform: rotate(3deg);
+    }
     /* Orange sticky note adjustments*/
    #orange {
     background-size: contain;
@@ -295,12 +299,13 @@ nav div {
    #orange h2 {
     font-size: 90% ;
     position: relative;
-    top: 22%;
+    top: 23%;
    }
    #orange p {
     font-size: 65% ;
     position: relative;
-    top: 22%;
+    top: 25%;
+    left: 20%;
    }
    /* Yellow sticky note adjustments */
    #yellow {
@@ -319,7 +324,7 @@ nav div {
    #yellow p {
     font-size: 65% ;
     position: relative;
-    top: 23%;
+    top: 25%;
    }
      /* Pink sticky note adjustments */
      #pink {
@@ -373,7 +378,7 @@ nav div {
    #orange p {
     font-size: 100% ;
     position: relative;
-    top: 25%;
+    top: 27%;
    }
    /* Yellow sticky note adjustments */
    #yellow {
@@ -392,7 +397,7 @@ nav div {
    #yellow p {
     font-size: 100% ;
     position: relative;
-    top: 25%;
+    top: 27%;
    }
     /* Pink sticky note adjustments */
     #pink {
