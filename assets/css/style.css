@@ -9,6 +9,7 @@ body {
     min-height: 100vh;
     display:flex;
     flex-direction:column;
+    overflow: hidden;
 }
 
 /* Header style */
@@ -246,6 +247,7 @@ nav div {
 
 /* Rules for tablet screens and larger */
 @media screen and (min-width:768px) {
+
      /* Adjustment of header content position */
     header{
         justify-items: flex-end;
@@ -272,7 +274,6 @@ nav div {
      }
      main {
          font-size: larger;
-         
      }
 
     /* About Me page adjustments */
