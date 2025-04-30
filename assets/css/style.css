@@ -272,7 +272,7 @@ nav div {
      }
      main {
          font-size: larger;
-         min-height: 850px;
+         
      }
 
     /* About Me page adjustments */
@@ -283,7 +283,7 @@ nav div {
         background-size: 100%;
         background-repeat: no-repeat;
     }
-    /* orange sticky note */
+    /* Orange sticky note adjustments*/
    #orange {
     background-size: contain;
     height: 300px;
@@ -302,7 +302,7 @@ nav div {
     position: relative;
     top: 22%;
    }
-   /* Yellow sticky note */
+   /* Yellow sticky note adjustments */
    #yellow {
     background-size: contain;
     height: 300px;
@@ -321,6 +321,25 @@ nav div {
     position: relative;
     top: 23%;
    }
+     /* Pink sticky note adjustments */
+     #pink {
+        background-size: contain;
+        height: 300px;
+        width: 300px;
+        position: relative;
+        top: -400px;
+        left:50%;
+       }
+       #pink h2 {
+        font-size: 80% ;
+        position: relative;
+        top: 25%;
+       }
+       #pink ul {
+        font-size: 65% ;
+        position: relative;
+        top: 30%;
+       }
 
     /* Portfolio page adjustments */
     .video-1 {
@@ -336,13 +355,14 @@ nav div {
 
 /* Rules for laptop screens and larger */
 @media screen and (min-width:1100px) {
-  /* orange sticky note */
+    /* About me page */
+  /* orange sticky note adjustments*/
   #orange {
     background-size: contain;
     height: 500px;
     width: 500px;
     position: relative;
-    top: 100px;
+    top: 350px;
     left:5%;
    }
    #orange h2 {
@@ -355,13 +375,13 @@ nav div {
     position: relative;
     top: 25%;
    }
-   /* Yellow sticky note */
+   /* Yellow sticky note adjustments */
    #yellow {
     background-size: contain;
     height: 500px;
     width: 500px;
     position: relative;
-    top: -40px;
+    top: 200px;
     left:30%;
    }
    #yellow h2 {
@@ -374,4 +394,23 @@ nav div {
     position: relative;
     top: 25%;
    }
+    /* Pink sticky note adjustments */
+    #pink {
+        background-size: contain;
+        height: 500px;
+        width: 500px;
+        position: relative;
+        top: -600px;
+        left:55%;
+       }
+       #pink h2 {
+        font-size: 135% ;
+        position: relative;
+        top: 25%;
+       }
+       #pink ul {
+        font-size: 100% ;
+        position: relative;
+        top: 30%;
+       }
 }
