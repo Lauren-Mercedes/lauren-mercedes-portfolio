@@ -55,7 +55,43 @@
         </nav>
     </header>
     <!-- Main body of page -->
-    <main>Main Content</main>
+    <main>
+        <!-- Contact form -->
+         <form id="form">
+            <!-- Name input -->
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required>
+            <br>
+            <!-- Company input -->
+            <label for="company">Company</label>
+            <input id="company" name="company" type="text">
+            <br>
+            <!-- Email input -->
+            <lable for="email">Email</lable>
+            <input id="email" name="email" type="email" required>
+            <br>
+            <!-- Phone number input -->
+            <label for="number">Phone Number</label>
+            <input id="number" name="number" type="number">
+            <br>
+            <!-- Message input -->
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="20" cols="30" required>
+                Compose message
+                </textarea>
+            <br>
+            <!-- Preferred method of contact input -->
+             <p>Preferred method of contact:</p>
+            <label for="contact-email">Email</label>
+                <input id="contact-email" type="radio" id="contact-email" name="contact-email" value="email" required>
+                <label for="contact-phone">Phone</label>
+                <input id="contact-phone" type="radio" id="contact-phone" name="contact-phone" value="phone">
+                <br>
+            <!-- Submit button -->
+            <label for="submit">submit</label>
+            <input id="submit" type="submit">
+         </form>
+    </main>
     <!-- Footer component -->
     <footer>
         <!-- LinkedIn link -->
