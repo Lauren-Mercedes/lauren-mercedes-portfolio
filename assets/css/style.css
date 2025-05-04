@@ -47,7 +47,9 @@ nav {
 nav div {
     display: flex;
     flex-direction: column;
-    margin-left: 5%;
+    /* margin-left: 5%; */
+    padding: 5%;
+    margin: 0 5%;
 }
 /* Text position within nav link */
 nav div p {
@@ -288,14 +290,6 @@ footer img {
 /* Removes header image */
 .display-min-768px {
     display:none;
-}
-
-/* Adjust nav link position for mobile view */
-nav div {
-    /* align-items: center; */
-   /* transform: translateX(30%); */
-   position: relative;
-   left: 10%;
 }
 }
 
