@@ -78,84 +78,75 @@ Main {
 
 /* About me page style */
 /* Sticky notes for mobile screens-about me page */
+/* Sticky note style */
+.sticky-note-style {
+     background-size: 100%;
+    background-repeat: no-repeat;
+    height: 400px;}
+/* Sticky note header style */
+.sticky-header {
+    text-align: center;
+    position: relative;
+}
+/* Sticky note content style */
+.sticky-content{
+    font-size: 90%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 22%;
+}
+/* Inset of text where sticky note is folded in bottom left corner */
+.fold{
+    margin-left: 6%;
+}
+  /* Angle of text to match sticky notes */
+  .text-angle{
+    transform: rotate(3deg);
+}
+
 /* Orange sticky note */
  #orange {
     background-image: url("../images/orange-sticky.png");
     background-position: center top 50%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 400px;
-
  }
-/* style and position for orange sticky note content */
+/* Orange sticky note header */
 #orange h2{
     font-size: 1rem;
-    text-align: center;
-    position: relative;
     top: 27%;
 }
+/* Orange sticky note content */
 #orange p{
-    font-size: 90%;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 22%;
     top: 110px;
 }
-#orange span{
-    margin-left: 6%;
-}
+
 /* Yellow sticky note */
  #yellow {
     background-image: url("../images/yellow-sticky.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 400px;
  }
-/* style and position for yellow sticky note content */
+/* Yellow sticky note header */
 #yellow h2{
     font-size: 1rem;
-    text-align: center;
-    position: relative;
     top: 22%;
 }
+/* Yellow sticky note content */
 #yellow p{
-    font-size: 90%;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 22%;
     top: 23%;
 }
-#yellow span{
-    margin-left: 6%;
-}
+
 /* Pink sticky note */
 #pink {
     background-image: url("../images/pink-sticky.png");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 400px;
-   
  }
-/* style and position for pink sticky note content */
+/* Pink sticky note header */
 #pink h2{
     font-size: 1rem;
-    text-align: center;
-    position: relative;
     top: 23%;
 }
+/* Pink sticky note content */
 #pink ul{
     list-style: none;
-    font-size: 90%;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 22%;
     top: 25%;
-}
-#pink span{
-    margin-left: 6%;
 }
 
 /* Portfolio page styling */
@@ -330,10 +321,10 @@ footer img {
         background-size: 100%;
         background-repeat: no-repeat;
     }
-    /* Angle of text to match sticky notes */
+    /* Angle of text to match sticky notes
     .text-angle{
         transform: rotate(3deg);
-    }
+    } */
     /* Orange sticky note adjustments*/
    #orange {
     background-size: contain;
