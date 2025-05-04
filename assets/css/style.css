@@ -1,40 +1,42 @@
-
 /* /* Applies global styling to all elements in order to override browser defaults */
-*{ padding: 0;
+* {
+    padding: 0;
     margin: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
+
 /* General positioning of page components */
 body {
     min-height: 100vh;
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     overflow-x: hidden;
 }
 
 /* Header style */
 header {
-    background-color:#82B5A7;
+    background-color: #82B5A7;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 100%;
     text-align: center;
-/* Header height */
-    flex-basis:  200px;
-/* Gradient between header and main body */
-    background: linear-gradient(180deg,#82B5A7 50%, #657C75 100%);
+    /* Header height */
+    flex-basis: 200px;
+    /* Gradient between header and main body */
+    background: linear-gradient(180deg, #82B5A7 50%, #657C75 100%);
 }
+
 /* Header picture size and positioning */
 header picture img {
     height: 20rem;
     width: 20rem;
     border: 2rem solid #364B45;
     border-radius: 50%;
-   display:flex;
-   align-items: flex-start;
-   position: absolute; 
-   top: 0;
-   left: 0;
-  transform: translate(-23%, -21%);
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-23%, -21%);
 }
 
 /* Navbar styling and position within Header */
@@ -43,6 +45,7 @@ nav {
     display: flex;
     font-size: 1rem;
 }
+
 /* Link position within Navbar */
 nav div {
     display: flex;
@@ -51,28 +54,31 @@ nav div {
     padding: 5%;
     margin: 0 5%;
 }
+
 /* Text position within nav link */
 nav div p {
     text-align: center;
 }
+
 /* Link & image position within nav link */
-nav div a{
+nav div a {
     position: relative;
     right: -25%;
 }
+
 /* Icon sizing */
 .nav-icon-size {
-height: 3rem;
-width: 3rem;
+    height: 3rem;
+    width: 3rem;
 }
 
 /* Main body style */
 Main {
-    background-color:#657C75;
+    background-color: #657C75;
     display: flex;
     flex-direction: column;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
- /* Using main content to push footer to the bottom of the page */
+    /* Using main content to push footer to the bottom of the page */
     flex: 1 0;
 }
 
@@ -80,162 +86,181 @@ Main {
 /* Sticky notes for mobile screens-about me page */
 /* Sticky note style */
 .sticky-note-style {
-     background-size: 100%;
+    background-size: 100%;
     background-repeat: no-repeat;
-    height: 400px;}
+    height: 400px;
+}
+
 /* Sticky note header style */
 .sticky-header {
+    font-size: 1rem;
+    top: 23%;
     text-align: center;
     position: relative;
 }
+
 /* Sticky note content style */
-.sticky-content{
+.sticky-content {
     font-size: 90%;
     display: flex;
     flex-direction: column;
     position: relative;
     left: 22%;
 }
+
 /* Inset of text where sticky note is folded in bottom left corner */
-.fold{
+.fold {
     margin-left: 6%;
 }
-  /* Angle of text to match sticky notes */
-  .text-angle{
+
+/* Angle of text to match sticky notes */
+.text-angle {
     transform: rotate(3deg);
 }
 
 /* Orange sticky note */
- #orange {
+#orange {
     background-image: url("../images/orange-sticky.png");
     background-position: center top 50%;
- }
-/* Orange sticky note header */
-#orange h2{
-    font-size: 1rem;
+}
+
+/* Orange sticky note header position adjustment */
+#orange h2 {
     top: 27%;
 }
+
 /* Orange sticky note content */
-#orange p{
+#orange p {
     top: 110px;
 }
 
 /* Yellow sticky note */
- #yellow {
+#yellow {
     background-image: url("../images/yellow-sticky.png");
- }
-/* Yellow sticky note header */
-#yellow h2{
-    font-size: 1rem;
-    top: 22%;
 }
+
 /* Yellow sticky note content */
-#yellow p{
+#yellow p {
     top: 23%;
 }
 
 /* Pink sticky note */
 #pink {
     background-image: url("../images/pink-sticky.png");
- }
-/* Pink sticky note header */
-#pink h2{
-    font-size: 1rem;
-    top: 23%;
 }
+
 /* Pink sticky note content */
-#pink ul{
+#pink ul {
     list-style: none;
     top: 25%;
 }
 
 /* Portfolio page styling */
 /* Position introductory content */
-main h1, p {
+main h1,
+p {
     margin-left: 10px;
 }
- /* Computer image size/position  */
+
+/* Computer image size/position  */
 a img {
     width: 760px;
     transform: translateX(-30%);
     z-index: 1;
 }
+
 /* Link for video-1 styling */
 .a-video-1 {
     height: fit-content;
     width: 20rem;
-    align-self: center; 
+    align-self: center;
 }
+
 /* Video-1 styling */
 .video-1 {
     height: fit-content;
     width: 20rem;
     align-self: center;
     position: relative;
-    top:30px;
-   }
+    top: 30px;
+}
+
 /* Button styling */
-button{
+button {
     border: none;
     background-color: #657C75;
- }
- /* Right button icon size */
- .right-button img {
-     height:3rem;
-     width: 3rem;
- }
- /* Left button icon size */
- .left-button img {
-     height: 3rem ;
-     width: 3rem ;
- } 
- /* Button positioning */
- .right-button {
+}
+
+/* Right button icon size */
+.right-button img {
+    height: 3rem;
+    width: 3rem;
+}
+
+/* Left button icon size */
+.left-button img {
+    height: 3rem;
+    width: 3rem;
+}
+
+/* Button positioning */
+.right-button {
     align-self: flex-end;
     position: relative;
     top: 50px;
- }
- .left-button {
+}
+
+.left-button {
     position: relative;
- }
- /* Contact Me page styling */
- /* Contact form */
- #form {
-  align-self: center;
-  margin: 10% 0;
-  max-width: 300px;
-  background-color: #ffffff;
-  border-radius: 2%; 
- }
- /* Form header */
- #form h3 {
-    background-color:#f2f5fc;
+}
+
+/* Contact Me page styling */
+/* Contact form */
+#form {
+    align-self: center;
+    margin: 10% 0;
+    max-width: 300px;
+    background-color: #ffffff;
+    border-radius: 2%;
+}
+
+/* Form header */
+#form h3 {
+    background-color: #f2f5fc;
     padding: 2%;
- }
- /* input boxes and labels */
- input, textarea, label, p {
+}
+
+/* input boxes and labels */
+input,
+textarea,
+label,
+p {
     width: 95%;
     margin: 2%;
- }
- /* Change colour of input box background on mouse hover */
- input:hover, textarea:hover {
-background-color: #f2f5fc;
- }
- /* Preferred method of contact selection */
- input[type=radio]{
+}
+
+/* Change colour of input box background on mouse hover */
+input:hover,
+textarea:hover {
+    background-color: #f2f5fc;
+}
+
+/* Preferred method of contact selection */
+input[type=radio] {
     position: relative;
     top: -20px;
     left: -80px;
     cursor: pointer;
- }
- /* Change colour of checked radio button background */
- input[type=radio]:checked{ 
-    accent-color: lightskyblue;
- }
+}
 
- /* send button */
- #submit {
-   margin-left: 35%;
+/* Change colour of checked radio button background */
+input[type=radio]:checked {
+    accent-color: lightskyblue;
+}
+
+/* send button */
+#submit {
+    margin-left: 35%;
     background-color: #0b57cf;
     width: 30%;
     padding: 5%;
@@ -244,145 +269,144 @@ background-color: #f2f5fc;
     /* text within button */
     color: #ffffff;
     font-size: 100%;
- }
- /* Change border colour on hover of send button */
- #submit:hover{
-border: lightskyblue solid 5px;
- }
- /* Change background colour on click of send button */
- #submit:checked{
+}
+
+/* Change border colour on hover of send button */
+#submit:hover {
+    border: lightskyblue solid 5px;
+}
+
+/* Change background colour on click of send button */
+#submit:checked {
     background-color: lightskyblue;
-     }
+}
+
 /* Footer style */
-Footer{
+Footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    background-color:#364B45;
+    background-color: #364B45;
     color: #82B5A7;
     font-size: 1rem;
     text-align: center;
-/* Footer height */
-    flex-basis:  100px;
+    /* Footer height */
+    flex-basis: 100px;
 }
+
 footer img {
     height: 1.5rem;
     width: fit-content;
 }
+
 /* footer link styles */
- footer a {
+footer a {
     color: #82B5A7;
     text-decoration: none;
- }
+}
 
 /* Rules for mobile screens */
-@media screen and (max-width: 767px) {
-/* Removes header image */
-.display-min-768px {
-    display:none;
-}
+@media screen and (max-width:767px) {
+
+    /* Removes header image */
+    .display-min-768px {
+        display: none;
+    }
 }
 
 /* Rules for tablet screens and larger */
 @media screen and (min-width:768px) {
-     /* Adjustment of header content position */
-    header{
+
+    /* Adjustment of header content position */
+    header {
         justify-items: flex-end;
     }
+
     /* Adjustment of header text position */
     header>h1 {
         margin-right: 1.25rem;
         font-size: 250%;
     }
+
     /* Adjustment of nav items size & position*/
-    nav{
+    nav {
         font-size: 1.3rem;
         margin-right: 18%;
         text-wrap: nowrap;
     }
+
     .nav-icon-size {
         height: 4rem;
         width: 4rem;
     }
+
     /* Adjustment of main content position */
     main h1 {
         margin-top: 3rem;
-     }
-     main {
-         font-size: larger;
-     }
+    }
+
+    main {
+        font-size: larger;
+    }
 
     /* About Me page adjustments */
     /* Background noticeboard and position on about me page */
     #noticeboard {
         background-image: url("../images/noticeboard.png");
-        background-position:center top 50%;
+        background-position: center top 50%;
         background-size: 100%;
         background-repeat: no-repeat;
     }
-    /* Angle of text to match sticky notes
-    .text-angle{
-        transform: rotate(3deg);
-    } */
-    /* Orange sticky note adjustments*/
-   #orange {
-    background-size: contain;
-    height: 300px;
-    width: 300px;
-    position: relative;
-    top: 225px;
-    left:5%;
-   }
-   #orange h2 {
-    font-size: 90% ;
-    position: relative;
-    top: 23%;
-   }
-   #orange p {
-    font-size: 65% ;
-    position: relative;
-    top: 25%;
-    left: 20%;
-   }
-   /* Yellow sticky note adjustments */
-   #yellow {
-    background-size: contain;
-    height: 300px;
-    width: 300px;
-    position: relative;
-    top: 90px;
-    left:30%;
-   }
-   #yellow h2 {
-    font-size: 80% ;
-    position: relative;
-    top: 23%;
-   }
-   #yellow p {
-    font-size: 65% ;
-    position: relative;
-    top: 25%;
-   }
-     /* Pink sticky note adjustments */
-     #pink {
+
+    /* Adjustment of sticky note style for tablet */
+    .sticky-note-style {
         background-size: contain;
         height: 300px;
         width: 300px;
         position: relative;
-        top: -400px;
-        left:50%;
-       }
-       #pink h2 {
-        font-size: 80% ;
+    }
+
+    /* Adjustment of sticky note header style for tablet */
+    .sticky-header {
+        font-size: 80%;
+        position: relative;
+        top: 23%;
+    }
+
+    /* Adjustment of sticky note content style for tablet */
+    .sticky-content {
+        font-size: 65%;
         position: relative;
         top: 25%;
-       }
-       #pink ul {
-        font-size: 65% ;
-        position: relative;
-        top: 30%;
-       }
+    }
+
+    /* Orange sticky note */
+    #orange {
+        top: 225px;
+        left: 5%;
+    }
+
+    #orange h2 {
+        top: 23%;
+    }
+
+    #orange p {
+        top: 22%;
+        left: 22%;
+    }
+
+    /* Yellow sticky note adjustments */
+    #yellow {
+        top: 90px;
+        left: 30%;
+    }
+
+    /* Pink sticky note adjustments */
+    #pink {
+        top: -400px;
+        left: 50%;
+    }
 
     /* Portfolio page adjustments */
     .video-1 {
@@ -391,82 +415,69 @@ footer img {
         width: 141%;
         height: 96%;
     }
+
     button {
         transform: translateY(-500px);
-}
-/* Contact me page adjustments */
-#form {
-    min-width: 700px;
-}
- /* Preferred method of contact selection */
- input[type=radio]{
-    top: -30px;
-    left: -200px;
- }
+    }
+
+    /* Contact me page adjustments */
+    #form {
+        min-width: 700px;
+    }
+
+    /* Preferred method of contact selection */
+    input[type=radio] {
+        top: -30px;
+        left: -200px;
+    }
 }
 
 /* Rules for laptop screens and larger */
 @media screen and (min-width:1100px) {
+
     /* Nav bar position */
-    nav{
+    nav {
         margin-right: 12%;
     }
+
     /* About me page */
-  /* orange sticky note adjustments*/
-  #orange {
-    background-size: contain;
-    height: 500px;
-    width: 500px;
-    position: relative;
-    top: 350px;
-    left:5%;
-   }
-   #orange h2 {
-    font-size: 150% ;
-    position: relative;
-    top: 25%;
-   }
-   #orange p {
-    font-size: 100% ;
-    position: relative;
-    top: 27%;
-   }
-   /* Yellow sticky note adjustments */
-   #yellow {
-    background-size: contain;
-    height: 500px;
-    width: 500px;
-    position: relative;
-    top: 200px;
-    left:30%;
-   }
-   #yellow h2 {
-    font-size: 135% ;
-    position: relative;
-    top: 25%;
-   }
-   #yellow p {
-    font-size: 100% ;
-    position: relative;
-    top: 27%;
-   }
-    /* Pink sticky note adjustments */
-    #pink {
+    /* Adjustment of sticky note style for laptop */
+    .sticky-note-style {
         background-size: contain;
         height: 500px;
         width: 500px;
         position: relative;
-        top: -600px;
-        left:55%;
-       }
-       #pink h2 {
-        font-size: 135% ;
+    }
+
+    /* Adjustment of sticky note header style for laptop */
+    .sticky-header {
+        font-size: 150%;
         position: relative;
         top: 25%;
-       }
-       #pink ul {
-        font-size: 100% ;
+    }
+
+    /* Adjustment of sticky note content style for laptop */
+    .sticky-content {
+        font-size: 100%;
         position: relative;
-        top: 30%;
-       }
+        top: 27%;
+    }
+
+    /* Orange sticky note position*/
+    #orange {
+        top: 350px;
+        left: 5%;
+    }
+
+    /* Yellow sticky note position */
+    #yellow {
+        top: 200px;
+        left: 30%;
+    }
+
+    /* Pink sticky note position */
+    #pink {
+        top: -600px;
+        left: 55%;
+    }
 }
