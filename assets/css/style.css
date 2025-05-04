@@ -295,7 +295,6 @@ footer img {
 
 /* Rules for tablet screens and larger */
 @media screen and (min-width:768px) {
-
      /* Adjustment of header content position */
     header{
         justify-items: flex-end;
@@ -305,11 +304,10 @@ footer img {
         margin-right: 1.25rem;
         font-size: 250%;
     }
-
     /* Adjustment of nav items size & position*/
     nav{
         font-size: 1.3rem;
-        margin-right: 4rem;
+        margin-right: 18%;
         text-wrap: nowrap;
     }
     .nav-icon-size {
@@ -418,6 +416,10 @@ footer img {
 
 /* Rules for laptop screens and larger */
 @media screen and (min-width:1100px) {
+    /* Nav bar position */
+    nav{
+        margin-right: 12%;
+    }
     /* About me page */
   /* orange sticky note adjustments*/
   #orange {
