@@ -58,38 +58,35 @@
     <main>
         <!-- Contact form -->
          <form id="form">
+            <h3>New Message</h3>
             <!-- Name input -->
-            <label for="name">Name</label>
-            <input id="name" name="name" type="text" required>
+            <input id="name" name="name" type="text" required placeholder="Name*">
             <br>
             <!-- Company input -->
-            <label for="company">Company</label>
-            <input id="company" name="company" type="text">
+            <input id="company" name="company" type="text" placeholder="Company">
             <br>
             <!-- Email input -->
-            <lable for="email">Email</lable>
-            <input id="email" name="email" type="email" required>
+            <input id="email" name="email" type="email" required placeholder="Email Address*">
             <br>
             <!-- Phone number input -->
-            <label for="number">Phone Number</label>
-            <input id="number" name="number" type="number">
+            <input id="number" name="number" type="number" placeholder="Phone number">
             <br>
             <!-- Message input -->
-            <label for="message">Message</label>
+            <label for="message">Message*</label>
             <textarea id="message" name="message" rows="20" cols="30" required>
-                Compose message
-                </textarea>
+            </textarea>
             <br>
             <!-- Preferred method of contact input -->
-             <p>Preferred method of contact:</p>
+             <p>Preferred method of contact*:</p>
             <label for="contact-email">Email</label>
                 <input id="contact-email" type="radio" id="contact-email" name="contact-email" value="email" required>
+                <span class="selected"></span>
                 <label for="contact-phone">Phone</label>
-                <input id="contact-phone" type="radio" id="contact-phone" name="contact-phone" value="phone">
+                <input id="contact-phone" type="radio" id="contact-phone" name="contact-phone" value="phone" class="selected">
+                <span class="selected"></span>
                 <br>
             <!-- Submit button -->
-            <label for="submit">submit</label>
-            <input id="submit" type="submit">
+            <input id="submit" type="submit" value="Send">
          </form>
     </main>
     <!-- Footer component -->
