@@ -153,6 +153,7 @@ Main {
 #pink ul {
     list-style: none;
     top: 25%;
+    line-height: 200%;
 }
 
 /* Portfolio page styling */
