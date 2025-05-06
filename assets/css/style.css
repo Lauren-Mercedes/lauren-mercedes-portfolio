@@ -174,44 +174,18 @@ a img {
     height: fit-content;
     width: 20rem;
     align-self: center;
+    z-index: 99;
 }
 
 /* Video-1 styling */
 .video-1 {
-    height: fit-content;
+    max-height: 30rem;
     width: 20rem;
     align-self: center;
     position: relative;
     top: 30px;
-}
-
-/* Button styling */
-button {
-    border: none;
-    background-color: #657C75;
-}
-
-/* Right button icon size */
-.right-button img {
-    height: 3rem;
-    width: 3rem;
-}
-
-/* Left button icon size */
-.left-button img {
-    height: 3rem;
-    width: 3rem;
-}
-
-/* Button positioning */
-.right-button {
-    align-self: flex-end;
-    position: relative;
-    top: 50px;
-}
-
-.left-button {
-    position: relative;
+    margin-bottom: 50px;
+    z-index: 1;
 }
 
 /* Contact Me page styling */
