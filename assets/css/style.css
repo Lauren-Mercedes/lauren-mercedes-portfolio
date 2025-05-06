@@ -176,15 +176,6 @@ a img {
     align-self: center;
 }
 
-/* Link button styling */
-#website-button {
-    position: relative;
-    top: -25px;
-    color: #38485B;
-    font-weight: bold;
-    background-color: #68798D;
-}
-
 /* Video styling */
 .video-1 {
     max-height: 30rem;
@@ -240,26 +231,23 @@ input[type=radio]:checked {
 }
 
 /* send button */
-#submit {
-    margin-left: 35%;
-    background-color: #0b57cf;
-    width: 30%;
-    padding: 5%;
+.button {
+   margin-left: 25%;
+    background-color: #38485b;
+    width: 50%;
+    padding: 2%;
     border-radius: 10%;
     cursor: pointer;
     /* text within button */
     color: #ffffff;
     font-size: 100%;
+    text-align: center;
 }
 
 /* Change border colour on hover of send button */
-#submit:hover {
+.button:hover {
     border: lightskyblue solid 5px;
-}
-
-/* Change background colour on click of send button */
-#submit:checked {
-    background-color: lightskyblue;
+    background-color: #0b57cf;
 }
 
 /* Footer style */
