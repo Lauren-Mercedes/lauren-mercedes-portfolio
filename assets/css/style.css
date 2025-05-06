@@ -387,18 +387,6 @@ footer a {
         left: 55%;
     }
 
-    /* Portfolio page adjustments */
-    .video-1 {
-        transform: translate(-58px, -475px);
-        z-index: 2;
-        width: 141%;
-        height: 96%;
-    }
-
-    button {
-        transform: translateY(-500px);
-    }
-
     /* Contact me page adjustments */
     #form {
         min-width: 700px;
