@@ -27,8 +27,8 @@ header {
 
 /* Header picture size and positioning */
 header picture img {
-    height: 20rem;
-    width: 20rem;
+    
+   height: 18rem;
     border: 2rem solid #364B45;
     border-radius: 50%;
     display: flex;
