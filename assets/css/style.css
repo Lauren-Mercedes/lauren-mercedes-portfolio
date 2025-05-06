@@ -27,8 +27,7 @@ header {
 
 /* Header picture size and positioning */
 header picture img {
-    
-   height: 18rem;
+    height: 18rem;
     border: 2rem solid #364B45;
     border-radius: 50%;
     display: flex;
@@ -355,7 +354,7 @@ footer a {
     /* Background noticeboard and position on about me page */
     #noticeboard {
         background-image: url("../images/noticeboard.png");
-        background-position: center top 50%;
+        background-position: center top -20%;
         background-size: 100%;
         background-repeat: no-repeat;
     }
@@ -378,13 +377,11 @@ footer a {
     /* Adjustment of sticky note content style for tablet */
     .sticky-content {
         font-size: 65%;
-        position: relative;
-        top: 25%;
     }
 
     /* Orange sticky note */
     #orange {
-        top: 225px;
+        top: 125px;
         left: 5%;
     }
 
@@ -399,14 +396,14 @@ footer a {
 
     /* Yellow sticky note adjustments */
     #yellow {
-        top: 90px;
+        top: 10px;
         left: 30%;
     }
 
     /* Pink sticky note adjustments */
     #pink {
-        top: -400px;
-        left: 50%;
+        top: -470px;
+        left: 55%;
     }
 
     /* Portfolio page adjustments */
@@ -452,33 +449,31 @@ footer a {
 
     /* Adjustment of sticky note header style for laptop */
     .sticky-header {
-        font-size: 150%;
+        font-size: 130%;
         position: relative;
-        top: 25%;
+        top: 23%;
     }
 
     /* Adjustment of sticky note content style for laptop */
     .sticky-content {
         font-size: 100%;
-        position: relative;
-        top: 27%;
     }
 
     /* Orange sticky note position*/
     #orange {
-        top: 350px;
+        top: 200px;
         left: 5%;
     }
 
     /* Yellow sticky note position */
     #yellow {
-        top: 200px;
+        top: -10px;
         left: 30%;
     }
 
     /* Pink sticky note position */
     #pink {
-        top: -600px;
+        top: -800px;
         left: 55%;
     }
 }
