@@ -46,7 +46,7 @@ nav {
 }
 
 /* Link position within Navbar */
-nav div {
+.navigation {
     display: flex;
     flex-direction: column;
     /* margin-left: 5%; */
@@ -55,12 +55,12 @@ nav div {
 }
 
 /* Text position within nav link */
-nav div p {
+.navigation p {
     text-align: center;
 }
 
 /* Link & image position within nav link */
-nav div a {
+.navigation a {
     position: relative;
     right: -25%;
 }
@@ -184,6 +184,11 @@ a img {
     position: relative;
     top: 30px;
     margin-bottom: 50px;
+}
+
+/* Video gallery position on mobiles */
+#video-group{
+    margin: 7%;
 }
 
 /* Contact Me page styling */
@@ -374,6 +379,10 @@ footer a {
         top: -470px;
         left: 55%;
     }
+/* video gallery position on tablet screens */
+    #video-group{
+        margin: 5% 30%;
+    }
 
     /* Contact me page adjustments */
     #form {
@@ -433,4 +442,19 @@ footer a {
         top: -800px;
         left: 55%;
     }
+
+    /* Video gallery position on laptop */
+    #video-group{
+        display: flex;
+        flex-direction: row;
+        min-height: 400px;
+        margin: 5%;
+    }
+    /* Video button adjust for rows */
+    #website-button{
+     position: relative;
+     top: 200px;
+     right: 250px;
+     width: 200%;
+}
 }
