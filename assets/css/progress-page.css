@@ -3,7 +3,7 @@ body {
     display:flex;
     flex-direction:column;
     background-color: #fe9865;
-    background-image: url(../progress-background.jpg);
+    background-image: url(../images/progress-background.jpg);
     background-position: center;
     background-size: cover;
 }
