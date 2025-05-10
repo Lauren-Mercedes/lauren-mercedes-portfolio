@@ -327,7 +327,7 @@ footer a {
     /* Background noticeboard and position on about me page */
     #noticeboard {
         background-image: url("../images/noticeboard.png");
-        background-position: center top -20%;
+        background-position: center top -70%;
         background-size: 100%;
         background-repeat: no-repeat;
     }
@@ -354,7 +354,7 @@ footer a {
 
     /* Orange sticky note */
     #orange {
-        top: 125px;
+        top: 80px;
         left: 5%;
     }
 
@@ -369,13 +369,13 @@ footer a {
 
     /* Yellow sticky note adjustments */
     #yellow {
-        top: 10px;
+        bottom: 30px;
         left: 30%;
     }
 
     /* Pink sticky note adjustments */
     #pink {
-        top: -470px;
+        top: -500px;
         left: 55%;
     }
 /* video gallery position on tablet screens */
@@ -426,19 +426,19 @@ footer a {
 
     /* Orange sticky note position*/
     #orange {
-        top: 100px;
+        top: 60px;
         left: 5%;
     }
 
     /* Yellow sticky note position */
     #yellow {
-        top: -10px;
+        bottom: 150px;
         left: 30%;
     }
 
     /* Pink sticky note position */
     #pink {
-        top: -800px;
+        top: -950px;
         left: 55%;
     }
 
