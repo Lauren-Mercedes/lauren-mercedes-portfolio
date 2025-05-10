@@ -180,7 +180,6 @@ a img {
 .video-1 {
     max-height: 30rem;
     width: 20rem;
-    align-self: center;
     position: relative;
     top: 30px;
     margin-bottom: 50px;
@@ -281,7 +280,7 @@ footer a {
 }
 
 /* Rules for mobile screens */
-@media screen and (max-width:767px) {
+@media screen and (max-width:450px) {
 
     /* Removes header image */
     .display-min-768px {
@@ -397,7 +396,7 @@ footer a {
 }
 
 /* Rules for laptop screens and larger */
-@media screen and (min-width:1100px) {
+@media screen and (min-width:1000px) {
 
     /* Nav bar position */
     nav {
@@ -427,7 +426,7 @@ footer a {
 
     /* Orange sticky note position*/
     #orange {
-        top: 200px;
+        top: 100px;
         left: 5%;
     }
 
@@ -449,12 +448,17 @@ footer a {
         flex-direction: row;
         min-height: 400px;
         margin: 5%;
+        max-width: 75%;
+    }
+    /* Video size adjustment */
+    .video-1{
+        width: 35%;
     }
     /* Video button adjust for rows */
     #website-button{
      position: relative;
-     top: 200px;
-     right: 250px;
+     top: 225px;
+    right: 350%;
      width: 200%;
 }
 }
