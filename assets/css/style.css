@@ -49,7 +49,6 @@ nav {
 .navigation {
     display: flex;
     flex-direction: column;
-    /* margin-left: 5%; */
     padding: 5%;
     margin: 0 5%;
 }
@@ -128,7 +127,7 @@ Main {
     top: 27%;
 }
 
-/* Orange sticky note content */
+/* Orange sticky note content position adjustment */
 #orange p {
     top: 110px;
 }
@@ -138,7 +137,7 @@ Main {
     background-image: url("../images/yellow-sticky.png");
 }
 
-/* Yellow sticky note content */
+/* Yellow sticky note content position adjustment */
 #yellow p {
     top: 23%;
 }
@@ -148,7 +147,7 @@ Main {
     background-image: url("../images/pink-sticky.png");
 }
 
-/* Pink sticky note content */
+/* Pink sticky note content position adjustment  */
 #pink ul {
     list-style: none;
     top: 25%;
@@ -160,13 +159,6 @@ Main {
 main h1,
 p {
     margin-left: 10px;
-}
-
-/* Computer image size/position  */
-a img {
-    width: 760px;
-    transform: translateX(-30%);
-    z-index: 1;
 }
 
 /* Link for video styling */
@@ -186,7 +178,7 @@ a img {
 }
 
 /* Video gallery position on mobiles */
-#video-group{
+#video-group {
     margin: 7%;
 }
 
@@ -234,9 +226,9 @@ input[type=radio]:checked {
     accent-color: lightskyblue;
 }
 
-/* send button */
+/* button styles */
 .button {
-   margin-left: 25%;
+    margin-left: 25%;
     background-color: #38485b;
     width: 50%;
     padding: 2%;
@@ -248,7 +240,7 @@ input[type=radio]:checked {
     text-align: center;
 }
 
-/* Change border colour on hover of send button */
+/* Change border colour on hover of button */
 .button:hover {
     border: lightskyblue solid 5px;
     background-color: #0b57cf;
@@ -268,6 +260,7 @@ Footer {
     flex-basis: 100px;
 }
 
+/* LinkedIn image style */
 footer img {
     height: 1.5rem;
     width: fit-content;
@@ -379,8 +372,9 @@ footer a {
         top: -350px;
         left: 55%;
     }
-/* video gallery position on tablet screens */
-    #video-group{
+
+    /* video gallery position on tablet screens */
+    #video-group {
         margin: 5% 30%;
     }
 
@@ -444,22 +438,24 @@ footer a {
     }
 
     /* Video gallery position on laptop */
-    #video-group{
+    #video-group {
         display: flex;
         flex-direction: row;
         min-height: 400px;
         margin: 5%;
         max-width: 75%;
     }
+
     /* Video size adjustment */
-    .video-1{
+    .video-1 {
         width: 35%;
     }
+
     /* Video button adjust for rows */
-    #website-button{
-     position: relative;
-     top: 225px;
-    right: 350%;
-     width: 200%;
-}
+    #website-button {
+        position: relative;
+        top: 225px;
+        right: 350%;
+        width: 200%;
+    }
 }

@@ -1,22 +1,26 @@
+/* Background styles */
 body {
     min-height: 100vh;
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     background-color: #fe9865;
     background-image: url(../images/progress-background.jpg);
     background-position: center;
     background-size: cover;
 }
-header
- {
+
+/* Header styles for in-progress text */
+header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 200%;
     text-align: center;
     background-color: #fe986590;
     transform: translateY(200%);
 }
+
+/* Adjustment of header for mobile screens */
 @media screen and (max-width: 767px) {
-    header{
+    header {
         transform: translateY(400%);
         font-size: 100%;
     }
